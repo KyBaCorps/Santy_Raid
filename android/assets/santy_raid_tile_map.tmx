@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="30" tilewidth="25" tileheight="25" nextobjectid="10">
+ <tileset firstgid="1" name="house" tilewidth="25" tileheight="25" tilecount="400" columns="20">
+  <image source="house.png" width="500" height="500"/>
+ </tileset>
+ <tileset firstgid="401" name="big_house" tilewidth="25" tileheight="25" tilecount="800" columns="40">
+  <image source="big_house.png" width="1000" height="500"/>
+ </tileset>
+ <layer name="background" width="240" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7BOc/1DbexIIL2kqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq6usDdjG/NQ==
+  </data>
+ </layer>
+ <layer name="foreground" width="240" height="30">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="collision_layer">
+  <object id="1" x="179" y="516">
+   <polyline points="0,0 218,-43 418,7"/>
+  </object>
+  <object id="2" x="729" y="453">
+   <polyline points="0,0 416,-80 847,-3"/>
+  </object>
+  <object id="5" x="770" y="725">
+   <polyline points="0,0 215,1"/>
+  </object>
+  <object id="6" x="821" y="515">
+   <polyline points="0,0 71,-21 136,-3"/>
+  </object>
+  <object id="7" x="1204" y="718">
+   <polyline points="0,0 137,-188 274,3"/>
+  </object>
+  <object id="8" x="977" y="564">
+   <polyline points="0,0 144,-173 296,6"/>
+  </object>
+  <object id="9" x="1386" y="590">
+   <polyline points="0,0 115,-154 218,26"/>
+  </object>
+ </objectgroup>
+</map>
