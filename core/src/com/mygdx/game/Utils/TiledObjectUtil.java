@@ -10,9 +10,6 @@ import com.badlogic.gdx.physics.box2d.ChainShape;
 import com.badlogic.gdx.physics.box2d.Shape;
 import com.badlogic.gdx.physics.box2d.World;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class TiledObjectUtil {
     public static void parseTiledObjectLayer(World world, MapObjects objects) {
         for(MapObject object : objects) {

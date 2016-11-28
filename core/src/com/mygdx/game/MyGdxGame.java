@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.game.Screens.PlayScreen;
+import com.mygdx.game.Utils.Constants;
 
 public class MyGdxGame extends Game {
 	public static final int V_WIDTH = 400;

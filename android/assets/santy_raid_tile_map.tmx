@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="30" tilewidth="25" tileheight="25" nextobjectid="10">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="30" tilewidth="25" tileheight="25" nextobjectid="11">
  <tileset firstgid="1" name="house" tilewidth="25" tileheight="25" tilecount="400" columns="20">
   <image source="house.png" width="500" height="500"/>
  </tileset>
@@ -38,5 +38,8 @@
   <object id="9" x="1386" y="590">
    <polyline points="0,0 115,-154 218,26"/>
   </object>
+ </objectgroup>
+ <objectgroup name="interactive_object">
+  <object id="10" x="430" y="370" width="148" height="51"/>
  </objectgroup>
 </map>
